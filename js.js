@@ -160,16 +160,36 @@
 
 // problem Task Solution: 4
 
-const arr1 = [ 23, 12, 4, 5, 77, 7]; 
-const arr2 = [ 33, 44, 66, 24, 66, 77]; 
+// const arr1 = [ 23, 12, 4, 5, 77, 7]; 
+// const arr2 = [ 33, 44, 66, 24, 66, 77]; 
 
-const maxNumber = (arr1, arr2) => {
-    const attatsArry = [...arr1, ...arr2]; 
-    const maxNumber = Math.max(...attatsArry); 
-    const minNumber = Math.min(...attatsArry); 
-    return `Max Number:${maxNumber} and Min Number: ${minNumber}`; 
-}
+// const maxNumber = (arr1, arr2) => {
+//     const attatsArry = [...arr1, ...arr2]; 
+//     const maxNumber = Math.max(...attatsArry); 
+//     const minNumber = Math.min(...attatsArry); 
+//     return `Max Number:${maxNumber} and Min Number: ${minNumber}`; 
+// }
 
-const maxNumberInArray = maxNumber(arr1, arr2)
-console.log (maxNumberInArray); 
+// const maxNumberInArray = maxNumber(arr1, arr2)
+// console.log (maxNumberInArray); 
+
+
+
+
+
+
+// const friendName = ["shakib", "salmann", "rahimnnn", "abdullnnn"]
+// const fName = (arr) => {
+//     let dubleName = [];  
+//     for (let items of arr){
+//         if (items.length % 2 == 1){
+//           dubleName.push(items); 
+//           console.log (dubleName);
+//         }
+//     }
+//     return dubleName; 
+// }
+
+// const friend = fName(friendName); 
+// console.log (friend); 
 
