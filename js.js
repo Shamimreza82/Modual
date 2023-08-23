@@ -193,3 +193,9 @@
 // const friend = fName(friendName); 
 // console.log (friend); 
 
+
+
+
+
+const ar = [ 12, 6, 8, 4,]; 
+
